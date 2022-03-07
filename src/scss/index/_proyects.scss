@@ -1,0 +1,38 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.proyects{
+  h2{
+    padding-bottom: 3rem;
+  }
+  .proyects-container{
+    .proyect{
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+
+      @include m.tablet{
+        grid-template-columns: 1fr;
+      }
+
+      .text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 2rem;
+
+        h3{
+          text-align: start;
+        }
+
+        .visit-site-button{
+          @include m.button(v.$principalColor, v.$white);
+        }
+        .view-proyect-button{
+          @include m.button(v.$white, v.$principalColor);
+        }
+      }
+    }
+  }
+}

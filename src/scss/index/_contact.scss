@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contact-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 10rem;
+  margin-bottom: 5rem;
+  
+  .contact-us-container{
+    background-color: rgba($color: #ffffff, $alpha: .2);
+    backdrop-filter: blur(.2rem);
+    border-radius: 3rem;
+    padding: 5rem;
+    text-align: center;
+
+    .contact-button{
+      @include m.button(v.$principalColor, v.$white){
+        font-size: 3rem;
+      };
+    }
+  }
+}

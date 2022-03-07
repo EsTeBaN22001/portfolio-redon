@@ -1,0 +1,102 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.footer{
+  background-color: v.$black;
+  color: v.$gray;
+  
+  .footer-container{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20rem;
+
+    @include m.tablet{
+      padding: 1rem;
+      grid-template-columns: 1fr;
+      row-gap: 4rem;
+    }
+
+    @include m.phone{
+      &.container{
+        width: 95%;
+      }
+    }
+
+    h3{
+      color: v.$white;
+      text-align: start;
+      font-size: 2rem;
+    }
+
+    .contact{
+      .contact-group{
+        a{
+          width: auto;
+          display: flex;
+          align-items: center;
+          color: v.$white;
+          font-size: 1.6rem;
+          transition: all .3s ease;
+
+          @include m.breakpointSmartWatch{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          p{
+            margin: .7rem;
+
+            @include m.breakpointSmartWatch{
+              font-size: 1.3rem;
+            }
+          }
+
+          &:hover{
+            color: v.$principalColor;
+
+            i{
+              color: v.$principalColor;
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+
+    .other-pages{
+      ul{
+        li{
+          list-style: disc;
+          transition: color .3s ease;
+
+          a{
+            color: v.$white;
+            font-size:  1.6rem;
+            transition: color .3s ease;
+          }
+          
+          &:hover{
+            color: v.$principalColor;
+
+            a{
+              color: v.$principalColor;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .copyright{
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0;
+    color: v.$white;
+    
+    p{
+      font-size: 1.8rem;
+    }
+  }
+}

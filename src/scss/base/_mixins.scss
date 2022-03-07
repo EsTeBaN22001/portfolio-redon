@@ -3,37 +3,51 @@
 /** Media Queries **/
 @mixin phone {
 	@media (max-width: v.$phone) {
-		@content;
+			@content;
 	}
 }
 @mixin tablet {
 	@media (max-width: v.$tablet) {
-		@content;
+			@content;
 	}
 }
 @mixin desktop {
 	@media (max-width: v.$desktop) {
-		@content;
+			@content;
+	}
+}
+
+@mixin breakpointDesktop {
+	@media (max-width: v.$breakpointDesktop) {
+			@content;
+	}
+}
+
+@mixin breakpointPhone {
+	@media (max-width: v.$breakpointPhone) {
+			@content;
+	}
+}
+
+@mixin breakpointSmartWatch {
+	@media (max-width: v.$breakpointSmartWatch) {
+			@content;
 	}
 }
 
 
 @mixin button($bgColor, $textColor) {
 	background-color: $bgColor;
-	padding: 1.5rem 4rem;
+	padding: 1rem 3rem;
 	color: $textColor;
-	margin-top: 2rem;
 	font-size: 2rem;
-	font-weight: 400;
 	display: inline-block;
-	font-weight: 700;
 	border: none;
 	transition-property: background-color;
 	transition-duration: .3s;
 	text-align: center;
-	display: block;
-	width: 100%;
-	margin: 5rem 0;
+	margin: 1rem 0rem;
+	border-radius: 2.2rem;
 
 	@include tablet {
 		width: auto;
@@ -42,4 +56,6 @@
 		background-color: darken( $bgColor, 10% );
 		cursor: pointer;
 	}
+
+	@content;
 }

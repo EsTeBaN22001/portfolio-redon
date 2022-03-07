@@ -3,21 +3,22 @@
 h1, h2, h3 {
 	font-family: v.$principalFont;
 	margin: 0;
-	font-weight: 900;
+	font-weight: 400;
 	color: v.$white;
+	text-transform: uppercase;
 	text-align: center;
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 }
 h2 {
-	font-size: 2.6rem;
+	font-size: 3rem;
 }
 h3 {
-	font-size: 2rem;
+	font-size: 2.4rem;
 }
 p {
-	color: v.$white;
-	font-size: 2.6rem;
+	color: v.$gray;
+	font-size: 2rem;
 }
