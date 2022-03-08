@@ -28,3 +28,9 @@ if(document.querySelector('.footer')){
   }
 
 }
+
+// Código para el pre-loader de la página
+window.addEventListener('load', function(){
+  const loader = document.querySelector('.loader');
+  loader.classList.toggle('loader2');
+})

@@ -16,16 +16,11 @@
   .about-text-container{
     flex: 4;
 
-    h1{
-      font-size: 4rem;
-      text-align: start;
-    }
-
     p{
-      font-size: 3rem;
+      margin-top: 2rem;
       
       @include m.phone{
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
 
@@ -33,6 +28,7 @@
       color: v.$blue;
     }
   }
+
   .about-img-container{
     max-width: 30rem;
 
@@ -44,6 +40,47 @@
       width: 100%;
       height: auto;
 
+    }
+  }
+}
+
+.about-page{
+  text-justify: distribute;
+  margin-top: 0;
+  padding-top: 15rem;
+
+  .about-text-container{
+    flex: 4;
+
+    p{
+      margin-top: 2rem;
+      
+      @include m.phone{
+        font-size: 1.5rem;
+      }
+    }
+
+    .typed{
+      color: v.$blue;
+    }
+  }
+
+  .about-heading-container{
+    display: flex;
+    align-items: center;
+  
+    img{
+      display: inline-block;
+      width: 8rem;
+      margin-right: 2rem;
+  
+      @include m.tablet{
+        display: none;
+      }
+    }
+    
+    h1{
+      display: inline-block;
     }
   }
 }

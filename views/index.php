@@ -1,6 +1,6 @@
-<section class="container-sm section about">
+<section class="container-sm section about reveal-left">
   <div class="about-text-container">
-    <h1>Desarrollador <br> <span class="typed"></span></h1>
+    <h1 class="title">Desarrollador <br> <span class="typed"></span></h1>
     <p>Soy un Desarrollador Fullstack sin experiencia en empresas ya que tengo 16 años pero si he creado y vendido alguna página web como freelancer, además tengo un curso de desarrollo web fullstack de 79 horas completado. Creo sitios web exitosos que son rápidos, fáciles de usar, auto administrables y construidos con las mejores prácticas.</p>
   </div>
   <div class="about-img-container">
@@ -8,7 +8,7 @@
   </div>
 </section>
 
-<section class="container-sm section cards">
+<section class="container-sm section cards reveal-right">
   <h2 class="title-cards-container">Habilidades principales</h2>
   <p class="paragraph-cards-container">Estas son las principales habilidades y tecnologías en las que desarrollo las aplicaciones web actualmente. No son demasiadas pero son las suficientes para lograr un buen nivel de aplicación y satisfacer las necesidades correspondientes.</p>
   <div class="cards-container">
@@ -42,7 +42,7 @@
   </div>
 </section>
 
-<section class="container-sm section proyects">
+<section class="container-sm section proyects reveal-left">
   <h2>Proyectos realizados más populares</h2>
   <div class="proyects-container">
     <div class="proyect" id="uptask">
@@ -90,7 +90,7 @@
   </div>
 </section>
 
-<section class="contact-us">
+<section class="container-sm contact-us reveal-right">
   <div class="contact-us-container">
     <h3>Contáctame dando click a este enlace</h3>
     <a href="/contact" class="contact-button">Contáctame</a>
@@ -101,7 +101,8 @@
 
 $script = '
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="build/js/customTyped.js"></script>
+  <script src="/build/js/customTyped.js"></script>
+  <script src="/build/js/customScrollReveal-index.js"></script>
 ';
 
 ?>

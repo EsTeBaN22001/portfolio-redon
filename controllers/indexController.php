@@ -12,6 +12,12 @@ class indexController{
 
   }
 
+  public static function aboutUs(Router $router){
+
+    $router->render('about-us');
+
+  }
+
 }
 
 ?>

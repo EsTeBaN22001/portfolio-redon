@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://unpkg.com/scrollreveal"></script>
 	<link rel="stylesheet" href="/build/css/app.css">
 </head>
 
@@ -19,6 +20,14 @@
 
 <body class="<?= $page; ?>">
 
+	<div class="loader" id="loader">
+		<div class="lds-facebook">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	
 	<div id="bg"></div>
 
 	<header class="header">
@@ -35,7 +44,7 @@
 		</div>
 		<nav class="nav">
 			<ul>
-				<li><a href="/about">Acerca de</a></li>
+				<li><a href="/about-us">Acerca de</a></li>
 				<li><a href="/proyects">Proyectos</a></li>
 				<li><a href="/contact">Contáctame</a></li>
 			</ul>
@@ -72,7 +81,7 @@
 				<ul class="navFooter">
 					<li><a href="/">Inicio</a></li>
 					<li><a href="/proyects">Proyectos</a></li>
-					<li><a href="/about">Acerca de</a></li>
+					<li><a href="/about-us">Acerca de</a></li>
 					<li><a href="/contact">Contáctame</a></li>
 				</ul>
 			</div>
@@ -81,11 +90,10 @@
 			<p>&copy; Todos los derechos reservados por Esteban-Redón 2022</p>
 		</div>
 	</footer>
-	
-	<script type="text/javascript" src="build/js/particles.min.js"></script>
-  <script type="text/javascript" src="build/js/customParticles.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="/build/js/app.js"></script>
+	<script src="/build/js/particles.min.js"></script>
+  <script src="/build/js/customParticles.js"></script>
 	<?php echo $script ?? ''; ?>
 	
 </body>

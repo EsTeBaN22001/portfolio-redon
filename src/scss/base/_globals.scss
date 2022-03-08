@@ -1,4 +1,5 @@
 @use 'variables' as v;
+@use 'mixins' as m;
 
 html {
 	font-size: 62.5%;
@@ -8,6 +9,7 @@ body {
 	min-height: 100%;
 	color: v.$white;
 	font-family: v.$principalFont;
+	overflow-x: hidden;
 }
 *, *:before, *:after {
 	box-sizing: border-box;
@@ -26,7 +28,11 @@ body {
 }
 .section{
 	margin: 5rem auto;
-	padding-top: 12rem;
+	margin-top: 12rem;
+
+	@include m.tablet{
+		margin-top: 5rem;
+	}
 }
 a {
 	text-decoration: none;
@@ -50,4 +56,12 @@ img {
 	background: #16222A;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #162f3a, #0d151a);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #162f3a, #0d151a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title{
+	font-size: 4rem;
+	text-align: start;
+	width: 100%;
+	@include m.tablet{text-align: center;}
+	@include m.phone{font-size: 2.5rem;}
 }

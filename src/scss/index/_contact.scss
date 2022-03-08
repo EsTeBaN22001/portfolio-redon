@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 70%;
   min-height: 10rem;
   margin-bottom: 5rem;
   
@@ -15,6 +15,10 @@
     border-radius: 3rem;
     padding: 5rem;
     text-align: center;
+
+    @include m.phone{
+      padding: 1rem;
+    }
 
     .contact-button{
       @include m.button(v.$principalColor, v.$white){

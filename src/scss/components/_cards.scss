@@ -17,27 +17,27 @@
     @include m.tablet{
       grid-template-columns: 1fr;
     }
+  }
+}
 
-    .card{
-      padding: 2rem;
-      text-align: center;
-      background-color: rgba($color: #ffffff, $alpha: .2);
-      backdrop-filter: blur(.2rem);
-      border-radius: 1rem;
+.card{
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba($color: #ffffff, $alpha: .2);
+  backdrop-filter: blur(.2rem);
+  border-radius: 1rem;
 
-      .card-icon{
-        font-size: 10rem;
-      }
+  .card-icon{
+    font-size: 10rem;
+  }
 
-      .card-title{
-        margin: 2rem 0;
-      }
+  .card-title{
+    margin: 2rem 0;
+  }
 
-      .card-text{
-        p{
-          font-size: 1.5rem;
-        }
-      }
+  .card-text{
+    p{
+      font-size: 1.5rem;
     }
   }
 }
