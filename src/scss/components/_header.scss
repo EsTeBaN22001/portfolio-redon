@@ -34,7 +34,7 @@
   .menu-icon{
     font-size: 4rem;
     display: none;
-    z-index: 2;
+    z-index: 20;
     @include m.tablet{
       display: inline-block;
     }

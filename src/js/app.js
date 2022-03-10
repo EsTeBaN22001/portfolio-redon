@@ -23,8 +23,28 @@ if(document.querySelector('.footer')){
 
   const body = document.querySelector('body');
 
-  if(body.classList.contains('')){
-    
+  // Página del index
+  if(body.classList.contains('index')){
+    const linkIndexFooter = document.querySelector('.navFooter a[href="/"]');
+    linkIndexFooter.classList.add('activeLink');
+  }
+
+  // Página del about-us
+  if(body.classList.contains('about-us')){
+    const linkIndexFooter = document.querySelector('.navFooter a[href="/about-us"]');
+    linkIndexFooter.classList.add('activeLink');
+  }
+
+  // Página del about-us
+  if(body.classList.contains('contact')){
+    const linkIndexFooter = document.querySelector('.navFooter a[href="/contact"]');
+    linkIndexFooter.classList.add('activeLink');
+  }
+
+  // Página del about-us
+  if(body.classList.contains('proyects')){
+    const linkIndexFooter = document.querySelector('.navFooter a[href="/proyects"]');
+    linkIndexFooter.classList.add('activeLink');
   }
 
 }

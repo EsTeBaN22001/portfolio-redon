@@ -13,7 +13,7 @@
 <section class="container-sm section frontend-development-container reveal-right">
   <h2>Desarrollo Front-End</h2>
   <div class="frontend-development-content">
-    <div class="card-about">
+    <div class="card-about reveal-left">
       <h2 class="card-title">Tecnologías principales</h2>
       <div class="card-content">
         <ul class="skills">
@@ -34,7 +34,7 @@
 <section class="container-sm section backend-development-container reveal-left">
   <h2>Desarrollo Back-End</h2>
   <div class="backend-development-content">
-    <div class="card-about">
+    <div class="card-about reveal-right">
       <h2 class="card-title">Tecnologías principales</h2>
       <div class="card-content">
         <ul class="skills">
@@ -55,7 +55,7 @@
 <section class="container-sm section collaborative-tools reveal-left">
   <h2>Herramientas colaborativas</h2>
   <div class="collaborative-tools-content">
-    <div class="card-about">
+    <div class="card-about reveal-left">
       <h2 class="card-title">Tecnologías principales</h2>
       <div class="card-content">
         <ul class="skills">
@@ -82,7 +82,6 @@
 $script = '
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="/build/js/customTyped.js"></script>
-  <script src="/build/js/customScrollReveal-index.js"></script>
 ';
 
 ?>

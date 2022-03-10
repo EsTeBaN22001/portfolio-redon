@@ -5,6 +5,30 @@
   h2{
     padding-bottom: 3rem;
   }
+
+  .title-proyects-page{
+    padding: 0;
+
+    &::after{
+      content: '';
+      display: block;
+      height: .5rem;
+      background-color: v.$white;
+      width: 50%;
+      margin: 1rem auto;
+      border-radius: 1rem;
+    }
+  }
+
+  .title-description{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .button-all-proyects{
+    @include m.button(v.$principalColor, v.$white);
+  }
   .proyects-container{
     .proyect{
       padding: 2rem;
@@ -35,4 +59,8 @@
       }
     }
   }
+}
+
+.proyects-page{
+  padding-top: 15rem;
 }

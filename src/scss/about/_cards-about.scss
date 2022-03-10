@@ -22,6 +22,12 @@
   border-radius: 1rem;
   float: right;
 
+  @include m.phone{
+    float: unset;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
   .card-title{
     margin: 2rem 0;
     font-size: 2rem;

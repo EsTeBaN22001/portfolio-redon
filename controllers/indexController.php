@@ -18,6 +18,18 @@ class indexController{
 
   }
 
+  public static function contact(Router $router){
+
+    $router->render('contact');
+
+  }
+
+  public static function proyects(Router $router){
+
+    $router->render('proyects');
+
+  }
+
 }
 
 ?>

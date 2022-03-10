@@ -65,3 +65,11 @@ img {
 	@include m.tablet{text-align: center;}
 	@include m.phone{font-size: 2.5rem;}
 }
+
+.activeLink{
+	color: v.$principalColor !important;
+}
+
+.disclaimer{
+	opacity: 0;
+}

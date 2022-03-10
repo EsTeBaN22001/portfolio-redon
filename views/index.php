@@ -47,7 +47,7 @@
   <div class="proyects-container">
     <div class="proyect" id="uptask">
       <div class="img-container">
-        <img src="build/img/uptask-proyect.webp" alt="uptask-dashboard">
+        <img src="build/img/uptask-tasks.webp" alt="uptask-task">
       </div>
       <div class="text-container">
         <h3>UpTask</h3>
@@ -88,6 +88,7 @@
     </div>
     <hr>
   </div>
+  <a href="/proyects" class="button-all-proyects">Ver todos los proyectos</a>
 </section>
 
 <section class="container-sm contact-us reveal-right">

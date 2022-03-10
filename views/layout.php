@@ -31,7 +31,7 @@
 	<div id="bg"></div>
 
 	<header class="header">
-		<div class="logo-container">
+		<div class="logo-container reveal-right">
 			<a href="/">
 			<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148.92000000000002 44.184" width="148.92000000000002" height="44.184">
 				<rect fill="none" stroke="#3A6073" stroke-width="3" width="145.92000000000002" height="41.184" x="1.5" y="1.5"></rect>
@@ -55,12 +55,12 @@
 
 	<footer class="footer">
 		<div class="container footer-container">
-			<div class="contact">
+			<div class="contact reveal-left">
 				<h3 class="titleSeparator">Enlaces de contacto</h3>
 				<div class="contact-group">
 					<a href="#">
 						<i class="fas fa-phone-square-alt"></i>
-						<p>2664963570</p>
+						<p>2664552752</p>
 					</a>
 				</div>
 				<div class="contact-group">
@@ -70,19 +70,19 @@
 					</a>
 				</div>
 				<div class="contact-group">
-					<a href="https://www.instagram.com/esteban_22001/" target="_blank">
-						<i class="fab fa-instagram"></i>
-						<p>Instagram</p>
+					<a href="https://www.linkedin.com/in/esteban-redon-194928217/" target="_blank">
+						<i class="fa-brands fa-linkedin"></i>
+						<p>LinkedIn</p>
 					</a>
 				</div>
 			</div>
-			<div class="other-pages">
+			<div class="other-pages reveal-right">
 				<h3>Otras páginas</h3>
 				<ul class="navFooter">
-					<li><a href="/">Inicio</a></li>
-					<li><a href="/proyects">Proyectos</a></li>
-					<li><a href="/about-us">Acerca de</a></li>
-					<li><a href="/contact">Contáctame</a></li>
+					<li><a href="/">Inicio</a><span>Ir al inicio</span></li>
+					<li><a href="/about-us">Acerca de</a><span>Saber más sobre mi</span></li>
+					<li><a href="/proyects">Proyectos</a><span>Ver mis proyectos</span></li>
+					<li><a href="/contact">Contáctame</a><span>Ponte en contacto conmigo.</span></li>
 				</ul>
 			</div>
 		</div>
@@ -91,6 +91,7 @@
 		</div>
 	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="/build/js/customScrollReveal-index.js"></script>
 	<script src="/build/js/app.js"></script>
 	<script src="/build/js/particles.min.js"></script>
   <script src="/build/js/customParticles.js"></script>

@@ -1,0 +1,53 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.proyects-cards-container{
+  .proyect-card{
+    padding: 2rem;
+    background-color: rgba($color: #ffffff, $alpha: .2);
+    backdrop-filter: blur(.2rem);
+    border-radius: 1rem;
+    margin: 2rem 0;
+
+    .proyect-card-text{
+      padding: 2rem 0;
+      position: relative;
+      text-align: justify;
+
+      h2{
+        padding: 0;
+      }
+
+      .page-link{
+        @include m.button(v.$principalColor, v.$white){
+          -webkit-box-shadow: 0px 0px 8px 0px rgba(255,255,255,1);
+          -moz-box-shadow: 0px 0px 8px 0px rgba(255,255,255,1);
+          box-shadow: 0px 0px 8px 0px rgba(255,255,255,1);
+        };
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        @include m.tablet{
+          position: relative;
+        }
+      }
+
+      .page-text{
+        margin-top: 1rem;
+
+        @include m.phone{
+          font-size: 1.6rem;
+        }
+      }
+    }
+    .glide{
+      .title-glide{
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+
+.contact-us{
+  margin-top: 2rem;
+}
