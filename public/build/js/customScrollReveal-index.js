@@ -1,1 +1,1 @@
-window.sr=ScrollReveal();let distance="0px";distance=screen.width<780?"10px":"500px",sr.reveal(".reveal-left",{duration:2e3,origin:"left",distance:""+distance}),sr.reveal(".reveal-right",{duration:2e3,origin:"right",distance:""+distance});
+window.sr=ScrollReveal();let distance="0px";distance=screen.width<780?"10px":"500px",sr.reveal(".reveal-left",{duration:2e3,origin:"left",distance:""+distance}),sr.reveal(".reveal-right",{duration:2e3,origin:"right",distance:""+distance}),sr.reveal(".form",{duration:2e3,distance:""+distance,origin:"top"});

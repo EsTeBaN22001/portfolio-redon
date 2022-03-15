@@ -1,7 +1,7 @@
 <section class="container-sm section about reveal-left">
   <div class="about-text-container">
     <h1 class="title">Desarrollador <br> <span class="typed"></span></h1>
-    <p>Soy un Desarrollador Fullstack sin experiencia en empresas ya que tengo 16 años pero si he creado y vendido alguna página web como freelancer, además tengo un curso de desarrollo web fullstack de 79 horas completado. Creo sitios web exitosos que son rápidos, fáciles de usar, auto administrables y construidos con las mejores prácticas.</p>
+    <p>¡Hola! Soy un Desarrollador Fullstack, tengo 16 años y he creado y vendido alguna página web como freelancer, además tengo un curso de desarrollo web fullstack de 79 horas completado. Creo sitios web exitosos que son rápidos, fáciles de usar, auto administrables y construidos con las mejores prácticas.</p>
   </div>
   <div class="about-img-container">
     <img src="build/img/about.svg" alt="Imágen acerca de mí">
@@ -10,7 +10,7 @@
 
 <section class="container-sm section cards reveal-right">
   <h2 class="title-cards-container">Habilidades principales</h2>
-  <p class="paragraph-cards-container">Estas son las principales habilidades y tecnologías en las que desarrollo las aplicaciones web actualmente. No son demasiadas pero son las suficientes para lograr un buen nivel de aplicación y satisfacer las necesidades correspondientes.</p>
+  <p class="paragraph-cards-container">Estas son las principales habilidades y tecnologías en las que desarrollo las aplicaciones web actualmente. Pero puedo adaptarme fácilmente a otras tecnologias o lo que requiera el proyecto.</p>
   <div class="cards-container">
     <div class="card">
       <div class="card-icon">
@@ -54,7 +54,6 @@
         <p>Este proyecto se basa en un gestor de proyectos y tareas pendientes. Con esta página puedes crear proyectos a realizar y gestionar las tareas que tienes que realizar en ese proyecto.</p>
         <div class="buttons-container">
           <a class="visit-site-button" target="_blank" href="https://uptaskapper.000webhostapp.com/">Visitar sitio</a>
-          <a class="view-proyect-button" href="/view-proyect?idProyect=">Ver proyecto</a>
         </div>
       </div>
     </div>
@@ -68,7 +67,6 @@
         <p>Este sitio web lo vendí a un cliente el cual quería potenciar su emprendimiento y tener presencia en internet. Este sitio cuenta con galería de productos e imágenes y es totalmente autoadministrable por el cliente. Es decir que tiene toda una interfaz para ser autoadministrada.</p>
         <div class="buttons-container">
           <a class="visit-site-button" target="_blank" href="https://nissi-confecciones.000webhostapp.com/">Visitar sitio</a>
-          <a class="view-proyect-button" href="/view-proyect?idProyect=">Ver proyecto</a>
         </div>
       </div>
     </div>
@@ -82,7 +80,6 @@
         <p>Este proyecto se basa en reservar una cita para un salón de belleza en el que podés reservar que tipo de servicio necesitas y reservar la cita con tus datos. Además cuenta con un panel de administración para el dueño/a del salón de belleza o peluquería.</p>
         <div class="buttons-container">
           <a class="visit-site-button" target="_blank" href="https://appsalon-er.000webhostapp.com/">Visitar sitio</a>
-          <a class="view-proyect-button" href="/view-proyect?idProyect=">Ver proyecto</a>
         </div>
       </div>
     </div>

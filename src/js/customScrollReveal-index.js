@@ -20,3 +20,9 @@ sr.reveal('.reveal-right', {
   origin: 'right',
   distance: `${distance}`,
 })
+
+sr.reveal('.form', {
+  duration: 2000,
+  distance: `${distance}`,
+  origin: 'top'
+});
