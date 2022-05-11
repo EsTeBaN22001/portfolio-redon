@@ -1,24 +1,23 @@
-<?php return array (
-  'root' => 
-  array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
-    'aliases' => 
-    array (
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '6cfed89d1d7fe34d9a02220a16524b6e6646c8c4',
+        'name' => 'esteb/template',
+        'dev' => true,
     ),
-    'reference' => 'c18498c0cf3ba3e9d8012f6ae6d480df59f40bc3',
-    'name' => 'esteb/template',
-  ),
-  'versions' => 
-  array (
-    'esteb/template' => 
-    array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'c18498c0cf3ba3e9d8012f6ae6d480df59f40bc3',
+    'versions' => array(
+        'esteb/template' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '6cfed89d1d7fe34d9a02220a16524b6e6646c8c4',
+            'dev_requirement' => false,
+        ),
     ),
-  ),
 );

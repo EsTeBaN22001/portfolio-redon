@@ -1,7 +1,7 @@
 <section class="container-sm section about reveal-left">
   <div class="about-text-container">
     <h1 class="title">Desarrollador <br> <span class="typed"></span></h1>
-    <p>¡Hola! Soy un Desarrollador Fullstack, tengo 16 años y he creado y vendido alguna página web como freelancer, además tengo un curso de desarrollo web fullstack de 79 horas completado. Creo sitios web exitosos que son rápidos, fáciles de usar, auto administrables y construidos con las mejores prácticas.</p>
+    <p>¡Hola! Soy un Desarrollador Fullstack, tengo 16 años y he creado y vendido páginas web como freelancer, además tengo un curso de desarrollo web fullstack de 80 horas completado. Creo sitios web exitosos rápidos, fáciles de usar, auto administrables y construidos de la mejor manera posible.</p>
   </div>
   <div class="about-img-container">
     <img src="build/img/about.svg" alt="Imágen acerca de mí">
@@ -18,7 +18,7 @@
       </div>
       <h2 class="card-title">Front-end</h2>
       <div class="card-text">
-        <p>Las principales tecnologías que utilizo para el front-end son: HTML, CSS3 y Javascript. Tengo un nivel aceptable y básico para realizar las tareas que se requieran. Además sé utilizar SASS y como compilador y task-runner uso GULP.</p>
+        <p>Las principales tecnologías que utilizo para el front-end son: HTML, CSS3 y Javascript. Tengo un nivel aceptable y básico para realizar las tareas que se requieran. Además sé utilizar SASS y como compilador y task-runner uso GULP.js.</p>
       </div>
     </div>
     <div class="card">
@@ -27,7 +27,7 @@
       </div>
       <h2 class="card-title">Back-end</h2>
       <div class="card-text">
-        <p>En la parte de back-end las tecnologías principales que manejo son como lenguaje de programación PHP y como bases de datos MySql. Se hacer lo básico de estas tecnologías. Incluso en el lenguaje php se utilizar el patrón de diseño MVC.</p>
+        <p>En la parte de back-end las tecnologías principales que manejo son: como lenguaje de programación PHP y como bases de datos MySql. Se hacer lo básico de estas tecnologías. Incluso en el lenguaje php se utilizar el patrón de diseño MVC.</p>
       </div>
     </div>
     <div class="card">
@@ -36,7 +36,7 @@
       </div>
       <h2 class="card-title">Trabajo en equipo</h2>
       <div class="card-text">
-        <p>Las tecnologías y aplicaciones que se utilizar para trabajar en equipo son GIT y para organizar las tareas o planificar sé utilizar lo básico de Notion.</p>
+        <p>Las tecnologías y aplicaciones que se utilizar para trabajar en equipo son GIT y para organizar las tareas o planificaciones sé utilizar lo básico de Notion.</p>
       </div>
     </div>
   </div>
@@ -45,6 +45,19 @@
 <section class="container-sm section proyects reveal-left">
   <h2>Proyectos realizados más populares</h2>
   <div class="proyects-container">
+    <div class="proyect" id="nissi">
+      <div class="img-container">
+        <img src="build/img/nissi-index.webp" alt="nissi-confecciones-index">
+      </div>
+      <div class="text-container">
+        <h3>Nissi-confecciones</h3>
+        <p>Este sitio web fué vendido a un cliente el cual quería potenciar su emprendimiento y tener presencia en internet. Este sitio cuenta con galería de productos e imágenes y es totalmente autoadministrable por el cliente. Es decir que tiene toda una interfaz para ser controlada por el dueño del sitio.</p>
+        <div class="buttons-container">
+          <a class="visit-site-button" target="_blank" href="https://nissi-confecciones.000webhostapp.com/">Visitar sitio</a>
+        </div>
+      </div>
+    </div>
+    <hr>
     <div class="proyect" id="uptask">
       <div class="img-container">
         <img src="build/img/uptask-tasks.webp" alt="uptask-task">
@@ -54,19 +67,6 @@
         <p>Este proyecto se basa en un gestor de proyectos y tareas pendientes. Con esta página puedes crear proyectos a realizar y gestionar las tareas que tienes que realizar en ese proyecto.</p>
         <div class="buttons-container">
           <a class="visit-site-button" target="_blank" href="https://uptaskapper.000webhostapp.com/">Visitar sitio</a>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="proyect" id="nissi">
-      <div class="img-container">
-        <img src="build/img/nissi-index.webp" alt="nissi-confecciones-index">
-      </div>
-      <div class="text-container">
-        <h3>Nissi-confecciones</h3>
-        <p>Este sitio web lo vendí a un cliente el cual quería potenciar su emprendimiento y tener presencia en internet. Este sitio cuenta con galería de productos e imágenes y es totalmente autoadministrable por el cliente. Es decir que tiene toda una interfaz para ser autoadministrada.</p>
-        <div class="buttons-container">
-          <a class="visit-site-button" target="_blank" href="https://nissi-confecciones.000webhostapp.com/">Visitar sitio</a>
         </div>
       </div>
     </div>
