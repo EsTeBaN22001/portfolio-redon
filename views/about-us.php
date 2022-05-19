@@ -2,7 +2,7 @@
   <div class="about-text-container">
     <div class="about-heading-container">
       <img src="/build/img/foto-carnet.webp" alt="Foto de Esteban Redón">
-      <h1 class="title">Desarrollador <br> <span class="typed"></span></h1>
+      <h1 class="title">&lt;Desarrollador <br> <span class="typed"></span>/&gt;</h1>
     </div>
     <p>Soy un Desarrollador Fullstack sin experiencia en empresas ya que tengo 16 años pero si he creado y vendido alguna página web como freelancer, además tengo un curso de desarrollo web fullstack de 79 horas completado. Creo sitios web exitosos que son rápidos, fáciles de usar, auto administrables y construidos con las mejores prácticas.</p>
     <p>Suelo centrarme un poco más en el back-end. Me siento más cómodo, pero sería difícil solo quedarme con él porque lo que es la maquetación web y desarrollo front-end también me gusta. Yo creo que es necesario saber de las 2 partes para entender como funciona una web completa y así hacer un mejor desarrollo.</p>
@@ -11,7 +11,7 @@
 </section>
 
 <section class="container-sm section frontend-development-container reveal-right">
-  <h2>Desarrollo Front-End</h2>
+  <h2>&lt;Desarrollo Front-End/&gt;</h2>
   <div class="frontend-development-content">
     <div class="card-about reveal-left">
       <h2 class="card-title">Tecnologías principales</h2>
@@ -32,7 +32,7 @@
 </section>
 
 <section class="container-sm section backend-development-container reveal-left">
-  <h2>Desarrollo Back-End</h2>
+  <h2>&lt;Desarrollo Back-End/&gt;</h2>
   <div class="backend-development-content">
     <div class="card-about reveal-right">
       <h2 class="card-title">Tecnologías principales</h2>
@@ -53,7 +53,7 @@
 </section>
 
 <section class="container-sm section collaborative-tools reveal-left">
-  <h2>Herramientas colaborativas</h2>
+  <h2>&lt;Herramientas colaborativas/&gt;</h2>
   <div class="collaborative-tools-content">
     <div class="card-about reveal-left">
       <h2 class="card-title">Tecnologías principales</h2>
@@ -70,12 +70,7 @@
   </div>
 </section>
 
-<section class="contact-us container-sm reveal-right">
-  <div class="contact-us-container">
-    <h3>Contáctame dando click a este enlace</h3>
-    <a href="/contact" class="contact-button">Contáctame</a>
-  </div>
-</section>
+<?php include_once(__DIR__ . '/templates/contact-us-card.php'); ?>
 
 <?php 
 

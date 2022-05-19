@@ -1,6 +1,6 @@
 <section class="container-sm section about reveal-left">
   <div class="about-text-container">
-    <h1 class="title">Desarrollador <br> <span class="typed"></span></h1>
+    <h1 class="title">&lt;Desarrollador <br> <span class="typed"></span>/&gt;</h1>
     <p>¡Hola! Soy un Desarrollador Fullstack, tengo 16 años y he creado y vendido páginas web como freelancer, además tengo un curso de desarrollo web fullstack de 80 horas completado. Creo sitios web exitosos rápidos, fáciles de usar, auto administrables y construidos de la mejor manera posible.</p>
   </div>
   <div class="about-img-container">
@@ -9,7 +9,7 @@
 </section>
 
 <section class="container-sm section cards reveal-right">
-  <h2 class="title-cards-container">Habilidades principales</h2>
+  <h2 class="title-cards-container">&lt;Habilidades principales/&gt;</h2>
   <p class="paragraph-cards-container">Estas son las principales habilidades y tecnologías en las que desarrollo las aplicaciones web actualmente. Pero puedo adaptarme fácilmente a otras tecnologias o lo que requiera el proyecto.</p>
   <div class="cards-container">
     <div class="card">
@@ -43,7 +43,7 @@
 </section>
 
 <section class="container-sm section proyects reveal-left">
-  <h2>Proyectos realizados más populares</h2>
+  <h2>&lt;Proyectos realizados más populares/&gt;</h2>
   <div class="proyects-container">
     <div class="proyect" id="nissi">
       <div class="img-container">
@@ -88,12 +88,7 @@
   <a href="/proyects" class="button-all-proyects">Ver todos los proyectos</a>
 </section>
 
-<section class="container-sm contact-us reveal-right">
-  <div class="contact-us-container">
-    <h3>Contáctame dando click a este enlace</h3>
-    <a href="/contact" class="contact-button">Contáctame</a>
-  </div>
-</section>
+<?php include_once(__DIR__ . '/templates/contact-us-card.php'); ?>
 
 <?php 
 

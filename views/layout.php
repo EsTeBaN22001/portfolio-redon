@@ -56,7 +56,7 @@
 	<footer class="footer">
 		<div class="container footer-container">
 			<div class="contact reveal-left">
-				<h3 class="titleSeparator">Enlaces de contacto</h3>
+				<h3 class="titleSeparator">&lt;Enlaces de contacto/&gt;</h3>
 				<div class="contact-group">
 					<a href="#">
 						<i class="fas fa-phone-square-alt"></i>
@@ -77,7 +77,7 @@
 				</div>
 			</div>
 			<div class="other-pages reveal-right">
-				<h3>Otras páginas</h3>
+				<h3>&lt;Otras páginas/&gt;</h3>
 				<ul class="navFooter">
 					<li><a href="/">Inicio</a><span>Ir al inicio</span></li>
 					<li><a href="/about-us">Acerca de</a><span>Saber más sobre mi</span></li>

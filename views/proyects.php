@@ -1,18 +1,18 @@
 <section class="container-sm proyects proyects-page">
-  <h1 class="title-proyects-page">Proyectos</h1>
+  <h1 class="title-proyects-page">&lt;Proyectos/&gt;</h1>
   <p class="title-description">Estos son los mejores proyectos que he realizado como desarrollador fullstack. Algunos son del curso de 79 horas pero tengo los conocimientos necesarios para realizar proyectos similares.</p>
   
   <div class="proyects-cards-container">
     <div class="proyect-card reveal-left">
       <div class="proyect-card-text">
-        <h2>Nissi confecciones</h2>
+        <h2>&lt;Nissi confecciones/&gt;</h2>
         <a class="page-link" href="https://nissi-confecciones.000webhostapp.com/" target="_blank">Visitar sitio</a>
         <p class="page-text">Este es el primer sitio web que hice como freelancer de desarrollo web. El cliente de este proyecto tiene un emprendimiento y quería tener presencia en interet y sobre todo potenciar su emprendimiento para crecer como proyecto. <br><br>
         Como un añadido no solo hice esta página para que el usuario pudiera ver su emprendimiento sino que le hice un panel de administración autoadministrable para que el cliente no tuviera que pedir ayuda de un programador para poder actualizar su contenido, sino que el pueda modificar la información del sitio sin requerir mi ayuda. <br><br>
         Las tecnologías principales utilizadas en el front-end son: HTML, CSS y Javascript y como lenguaje principal para el lado del servidor(back-end) utilizé PHP y como administrador de base de datos utilizé MySql.</p>
       </div>
       <div class="glide">
-        <h3 class="title-glide">Fotos del sitio</h3>
+        <h3 class="title-glide">&lt;Fotos del sitio/&gt;</h3>
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
             <li class="glide__slide">
@@ -76,7 +76,7 @@
     <hr>
     <div class="proyect-card reveal-right">
       <div class="proyect-card-text">
-        <h2>UpTask</h2>
+        <h2>&lt;UpTask/&gt;</h2>
         <a class="page-link" href="https://uptaskapper.000webhostapp.com/" target="_blank">Visitar sitio</a>
         <p class="page-text">UpTask es un sitio web que te permite administrar las tareas pendientes de un proyecto que tengas que hacer. Puedes crear proyectos, tareas y cambiar el estado de tareas como completas o pendientes. <br><br>
         Las tecnologías principales utilizadas en el front-end son: HTML, CSS y Javascript y como lenguaje principal para el lado del servidor(back-end) utilizé PHP y como administrador de base de datos utilizé MySql. <br><br>
@@ -85,7 +85,7 @@
       </p>
       </div>
       <div class="glide glide2">
-        <h3 class="title-glide">Fotos del sitio</h3>
+        <h3 class="title-glide">&lt;Fotos del sitio/&gt;</h3>
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
             <li class="glide__slide">
@@ -131,13 +131,13 @@
     <hr>
     <div class="proyect-card reveal-left">
       <div class="proyect-card-text">
-        <h2>AppSalón</h2>
+        <h2>&lt;AppSalón/&gt;</h2>
         <a class="page-link" href="https://appsalon-er.000webhostapp.com/" target="_blank">Visitar sitio</a>
         <p class="page-text">Appsalón es un sitio web basado en la reserva y presta de servicios de peluquería y/o salón de belleza en el que el cliente se puede registrar, elegir los servicios que desea y reservar una cita con día y horario. <br><br>
         Además para el dueño del sitio cuenta con un panel de administración en el que puede ver todas las citas que hicieron los clientes y además crear, modificar o eliminar los servicios que presta dicho salón, por lo que no es necesario que le pida ayuda a un programador para acutalizar el sitio.</p>
       </div>
       <div class="glide glide3">
-        <h3 class="title-glide">Fotos del sitio</h3>
+        <h3 class="title-glide">&lt;Fotos del sitio/&gt;</h3>
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
             <li class="glide__slide">
@@ -178,12 +178,7 @@
   </div>
 </section>
 
-<section class="container-sm contact-us reveal-right">
-  <div class="contact-us-container">
-    <h3>Contáctame dando click a este enlace</h3>
-    <a href="/contact" class="contact-button">Contáctame</a>
-  </div>
-</section>
+<?php include_once(__DIR__ . '/templates/contact-us-card.php'); ?>
 
 <?php 
 

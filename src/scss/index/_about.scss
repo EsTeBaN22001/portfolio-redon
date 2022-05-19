@@ -73,6 +73,7 @@
       display: inline-block;
       width: 8rem;
       margin-right: 2rem;
+      border-radius: 50%;
   
       @include m.tablet{
         display: none;
