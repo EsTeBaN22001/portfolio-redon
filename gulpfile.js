@@ -1,7 +1,7 @@
-const { src, dest, watch , series, parallel } = require('gulp');
+const { src, dest, watch, series, parallel } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('autoprefixer');
-const postcss    = require('gulp-postcss')
+const postcss = require('gulp-postcss')
 const sourcemaps = require('gulp-sourcemaps')
 const cssnano = require('cssnano');
 const terser = require('gulp-terser-js');
@@ -23,7 +23,7 @@ function css() {
 		.pipe(sass())
 		.pipe(postcss([autoprefixer(), cssnano()]))
 		.pipe(sourcemaps.write('.'))
-		.pipe( dest('public/build/css') );
+		.pipe(dest('public/build/css'));
 }
 
 
@@ -37,17 +37,17 @@ function javascript() {
 function img() {
 	return src(paths.img)
 		.pipe(cache(squoosh()))
-		.pipe( webp() )
+		.pipe(webp())
 		.pipe(dest('public/build/img'))
-		.pipe(notify({ message: 'Imagen Completada'}));
+		.pipe(notify({ message: 'Imagen Completada' }));
 }
 
 function watchArchives() {
-	watch( paths.scss, css );
-	watch( paths.js, javascript );
-	watch( paths.img, img );
+	watch(paths.scss, css);
+	watch(paths.js, javascript);
+	watch(paths.img, img);
 }
 
 exports.css = css;
 exports.watch = watchArchives;
-exports.default = parallel(css, javascript,  img,  watchArchives ); 
+exports.default = parallel(css, javascript, img, watchArchives); 

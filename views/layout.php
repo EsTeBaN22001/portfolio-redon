@@ -20,13 +20,13 @@
 
 <body class="<?= $page; ?>">
 
-	<div class="loader" id="loader">
+	<!-- <div class="loader" id="loader">
 		<div class="lds-facebook">
 			<div></div>
 			<div></div>
 			<div></div>
 		</div>
-	</div>
+	</div> -->
 	
 	<div id="bg"></div>
 
@@ -55,7 +55,7 @@
 
 	<footer class="footer">
 		<div class="container footer-container">
-			<div class="contact reveal-left">
+			<div class="contact reveal-vertical1">
 				<h3 class="titleSeparator">&lt;Enlaces de contacto/&gt;</h3>
 				<div class="contact-group">
 					<a href="#">
@@ -76,7 +76,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="other-pages reveal-right">
+			<div class="other-pages reveal-vertical2">
 				<h3>&lt;Otras páginas/&gt;</h3>
 				<ul class="navFooter">
 					<li><a href="/">Inicio</a><span>Ir al inicio</span></li>
@@ -93,8 +93,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="/build/js/customScrollReveal-index.js"></script>
 	<script src="/build/js/app.js"></script>
-	<script src="/build/js/particles.min.js"></script>
-  <script src="/build/js/customParticles.js"></script>
 	<?php echo $script ?? ''; ?>
 	
 </body>

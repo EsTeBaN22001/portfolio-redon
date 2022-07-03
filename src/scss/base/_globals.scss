@@ -4,6 +4,9 @@
 html {
 	font-size: 62.5%;
 	box-sizing: border-box;
+
+	@include m.tablet{font-size: 50%;}
+	@include m.phone{font-size: 46%;}
 }
 body {
 	min-height: 100%;
@@ -63,11 +66,10 @@ img {
 	text-align: start;
 	width: 100%;
 	@include m.tablet{text-align: center;}
-	@include m.phone{font-size: 2.5rem;}
 }
 
 .activeLink{
-	color: v.$principalColor !important;
+	color: v.$pink !important;
 }
 
 .disclaimer{

@@ -31,7 +31,7 @@
           background-color: rgba($color: #ffffff, $alpha: .2);
           backdrop-filter: blur(.2rem);
           border: .3rem solid transparent;
-          transition: .3s ease-in-out all;
+          transition: .2s ease-in-out all;
 
           &:focus{
             border: .3rem solid v.$blue;

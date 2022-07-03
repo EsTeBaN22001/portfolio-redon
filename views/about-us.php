@@ -2,10 +2,10 @@
   <div class="about-text-container">
     <div class="about-heading-container">
       <img src="/build/img/foto-carnet.webp" alt="Foto de Esteban Redón">
-      <h1 class="title">&lt;Desarrollador <br> <span class="typed"></span>/&gt;</h1>
+      <h1 class="title">&lt;Esteban Redón <br> <span class="typed"></span>/&gt;</h1>
     </div>
-    <p>Soy un Desarrollador Fullstack sin experiencia en empresas ya que tengo 16 años pero si he creado y vendido alguna página web como freelancer, además tengo un curso de desarrollo web fullstack de 79 horas completado. Creo sitios web exitosos que son rápidos, fáciles de usar, auto administrables y construidos con las mejores prácticas.</p>
-    <p>Suelo centrarme un poco más en el back-end. Me siento más cómodo, pero sería difícil solo quedarme con él porque lo que es la maquetación web y desarrollo front-end también me gusta. Yo creo que es necesario saber de las 2 partes para entender como funciona una web completa y así hacer un mejor desarrollo.</p>
+    <p>Soy un Desarrollador Fullstack sin experiencia en empresas pero si con experiencia en la creación y ventas de páginas web como freelancer, además tengo cursos y capacitaciones online sobre desarrollo web. En un año me recibirpe con un título secundario de técnico en informática.</p>
+    <p>Suelo centrarme un poco más en el back-end. Me siento más cómodo, pero sería difícil solo quedarme con él porque lo que es la maquetación web y desarrollo front-end también me interesa. Yo creo que es necesario saber de las 2 partes para entender como funciona una web completa y así hacer un mejor desarrollo.</p>
     <p>Siempre trato de no solo cumplir con los requisitos que pide el cliente sino de dedicar un tiempo extra en tratar de mejorar el producto y proponer nuevas ideas para potenciar el proyecto. Pero sobre todo de poner al usuario como principal, tratar de hacer un producto amigable, fácil de usar y atractivo a los ojos del usuario.</p>
   </div>
 </section>

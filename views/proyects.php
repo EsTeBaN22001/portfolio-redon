@@ -7,9 +7,10 @@
       <div class="proyect-card-text">
         <h2>&lt;Nissi confecciones/&gt;</h2>
         <a class="page-link" href="https://nissi-confecciones.000webhostapp.com/" target="_blank">Visitar sitio</a>
-        <p class="page-text">Este es el primer sitio web que hice como freelancer de desarrollo web. El cliente de este proyecto tiene un emprendimiento y quería tener presencia en interet y sobre todo potenciar su emprendimiento para crecer como proyecto. <br><br>
-        Como un añadido no solo hice esta página para que el usuario pudiera ver su emprendimiento sino que le hice un panel de administración autoadministrable para que el cliente no tuviera que pedir ayuda de un programador para poder actualizar su contenido, sino que el pueda modificar la información del sitio sin requerir mi ayuda. <br><br>
+        <p class="page-text">Este es el primer sitio web que hice como freelancer de desarrollo web. El cliente de este proyecto tiene un emprendimiento y quería tener presencia en interet y sobre todo potenciar su emprendimiento para crecer como proyecto. <br><br> </p>
+        <p class="extended-text">Como un añadido no solo hice esta página para que el usuario pudiera ver su emprendimiento sino que le hice un panel de administración autoadministrable para que el cliente no tuviera que pedir ayuda de un programador para poder actualizar su contenido, sino que el pueda modificar la información del sitio sin requerir mi ayuda. <br><br>
         Las tecnologías principales utilizadas en el front-end son: HTML, CSS y Javascript y como lenguaje principal para el lado del servidor(back-end) utilizé PHP y como administrador de base de datos utilizé MySql.</p>
+        <span href="#" class="read-more">Leer más...</span>
       </div>
       <div class="glide">
         <h3 class="title-glide">&lt;Fotos del sitio/&gt;</h3>
@@ -73,16 +74,16 @@
         </div>
       </div>
     </div>
-    <hr>
     <div class="proyect-card reveal-right">
       <div class="proyect-card-text">
         <h2>&lt;UpTask/&gt;</h2>
         <a class="page-link" href="https://uptaskapper.000webhostapp.com/" target="_blank">Visitar sitio</a>
-        <p class="page-text">UpTask es un sitio web que te permite administrar las tareas pendientes de un proyecto que tengas que hacer. Puedes crear proyectos, tareas y cambiar el estado de tareas como completas o pendientes. <br><br>
+        <p class="page-text">UpTask es un sitio web que te permite administrar las tareas pendientes de un proyecto que tengas que hacer. Puedes crear proyectos, tareas y cambiar el estado de tareas como completas o pendientes. <br><br> </p>
+        <p class="extended-text">
         Las tecnologías principales utilizadas en el front-end son: HTML, CSS y Javascript y como lenguaje principal para el lado del servidor(back-end) utilizé PHP y como administrador de base de datos utilizé MySql. <br><br>
         Una novedad de este sitio es que todas las peticiones a la base de datos están hechas por medio de fetch en javascript; esto permite una mejora el rendimiento y la experiencia de usuario en la aplicación. Permite que tenga una interacción más fluida y dinámica. <br><br>
-        Este es un proyecto de un curso que realizé pero la diferencia es que volví a realizar el sitio sin consultar el curso, por lo que demuestra que si he adquirido los conocimientos y soy capaz de realizar una página de este estilo.
-      </p>
+        Este es un proyecto de un curso que realizé pero la diferencia es que volví a realizar el sitio sin consultar el curso, por lo que demuestra que si he adquirido los conocimientos y soy capaz de realizar una página de este estilo.</p>
+        <span href="#" class="read-more">Leer más...</span>
       </div>
       <div class="glide glide2">
         <h3 class="title-glide">&lt;Fotos del sitio/&gt;</h3>
@@ -128,13 +129,14 @@
         </div>
       </div>
     </div>
-    <hr>
     <div class="proyect-card reveal-left">
       <div class="proyect-card-text">
         <h2>&lt;AppSalón/&gt;</h2>
         <a class="page-link" href="https://appsalon-er.000webhostapp.com/" target="_blank">Visitar sitio</a>
-        <p class="page-text">Appsalón es un sitio web basado en la reserva y presta de servicios de peluquería y/o salón de belleza en el que el cliente se puede registrar, elegir los servicios que desea y reservar una cita con día y horario. <br><br>
+        <p class="page-text">Appsalón es un sitio web basado en la reserva y presta de servicios de peluquería y/o salón de belleza en el que el cliente se puede registrar, elegir los servicios que desea y reservar una cita con día y horario. <br><br> </p>
+        <p class="extended-text">
         Además para el dueño del sitio cuenta con un panel de administración en el que puede ver todas las citas que hicieron los clientes y además crear, modificar o eliminar los servicios que presta dicho salón, por lo que no es necesario que le pida ayuda a un programador para acutalizar el sitio.</p>
+        <span href="#" class="read-more">Leer más...</span>
       </div>
       <div class="glide glide3">
         <h3 class="title-glide">&lt;Fotos del sitio/&gt;</h3>
@@ -174,7 +176,6 @@
         </div>
       </div>
     </div>
-    <hr>
   </div>
 </section>
 

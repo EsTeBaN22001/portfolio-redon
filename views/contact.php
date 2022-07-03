@@ -1,6 +1,6 @@
 <div class="container-sm contact-page">
   <div class="form-container">
-    <form class="form" action="https://formspree.io/f/xgedyjzz" method="POST" id="form">
+    <form class="form reveal-top" action="https://formspree.io/f/xgedyjzz" method="POST" id="form">
       <h2>Contáctame</h2>
       <div class="field-group">
         <label for="name">Nombre</label>
