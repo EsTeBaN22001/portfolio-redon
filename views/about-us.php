@@ -1,7 +1,7 @@
 <section class="container-sm section about-page reveal-left">
   <div class="about-text-container">
     <div class="about-heading-container">
-      <img src="/build/img/foto-carnet.webp" alt="Foto de Esteban Redón">
+      <div class="img-container"></div>
       <h1 class="title">&lt;Esteban Redón <br> <span class="typed"></span>/&gt;</h1>
     </div>
     <p>Soy un Desarrollador Fullstack sin experiencia en empresas pero si con experiencia en la creación y ventas de páginas web como freelancer, además tengo cursos y capacitaciones online sobre desarrollo web. En un año me recibirpe con un título secundario de técnico en informática.</p>
